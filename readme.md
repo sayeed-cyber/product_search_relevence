@@ -1,4 +1,6 @@
-# Product Recommendation System
+# product search relevance rate system
+
+This program actually predicts relevancy between costumer searched product and result product 
 
 A machine learning program that generates data points of products and uses linear regression to make predictions based on customer search patterns. 
 
