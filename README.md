@@ -2,7 +2,7 @@
 
 This program actually predicts relevancy between costumer searched product and result product 
 
-A machine learning program that generates data points of products and uses linear regression to make predictions based on customer search patterns. 
+A machine learning program that generates data points of products and uses deep learning to make predictions based on customer search patterns. 
 
 ## Data Generation
 The program generates data points with the following features:
@@ -15,7 +15,7 @@ The program generates data points with the following features:
 Each product is also assigned a relevance score based on customer search patterns.
 
 ## Training
-The program trains itself using the generated data and linear regression, allowing it to make predictions based on customer search queries. 
+The program trains itself using the generated data and Neural network, allowing it to make predictions based on customer search queries. 
 
 ## Prediction
 When a customer search query is inputted, the program outputs a list of product descriptions with the highest relevance scores.
@@ -24,12 +24,13 @@ When a customer search query is inputted, the program outputs a list of product 
 - Python
 - Numpy
 - Pandas
-- Scikit-learn (Linear Regression)
+- Scikit-learn 
+- tensorflow
 
 ## Benefits
 - The program is able to provide customers with relevant product recommendations based on their search queries, increasing the chances of making a sale. 
 - The more data the program generates and trains on, the more accurate its predictions become, leading to a better customer experience. 
-- The use of linear regression allows for efficient and effective training, making it a scalable solution for even the largest of datasets.
+
 
 ## Future Work
 - The program can be improved by incorporating other machine learning algorithms, such as decision trees or neural networks, to further increase its accuracy. 
